@@ -6,7 +6,7 @@
     "clean": "bsb -clean-world",
     "bundle": "parcel build static/index.html --public-url /assets/",
     "build": "yarn compile && yarn bundle",
-    "watch:compile": "bsb -make-world -w",
+    "watch": "bsb -make-world -w",
     "watch:bundle": "parcel watch static/index.html --public-url /assets/"
   },
   "keywords": [
@@ -27,7 +27,7 @@
     "reason-react": "^0.7.0"
   },
   "devDependencies": {
-    "bs-platform": "^7.1.0"
+    "bs-platform": "^8.0.0-dev.1"
   },
   "cacheDirectories": [
     "dist",
